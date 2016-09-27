@@ -12,7 +12,7 @@ public class ServiceClient {
 	public static void main(String[] args) {
 		try {
 
-			URL url = new URL("http://172.17.13.26/TurnipService/rest/customersInfo/vendorID/?vendorId=10004");
+			URL url = new URL("http://192.168.1.140/TurnipService/rest/customersInfo/vendorID/?vendorId=10004");
 			HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 			conn.setRequestMethod("POST");
 
